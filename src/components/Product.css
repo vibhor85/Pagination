@@ -1,0 +1,27 @@
+.product {
+    width: 29%;
+    box-shadow:1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product h2 {
+    text-align: center;
+}
+@media (max-width:943px) {
+    .product {
+        width: 45%;
+    }
+}
+@media (max-width:768px) {
+    .product {
+        width: 100%;
+    }
+}

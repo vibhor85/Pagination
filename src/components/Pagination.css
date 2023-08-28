@@ -1,0 +1,14 @@
+.pagination {
+    width: 100%;
+    text-align: center;
+}
+
+.pagination span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pagination span:hover {
+    color:rgb(71, 71, 137);
+    text-decoration: underline;
+}
